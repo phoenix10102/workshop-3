@@ -1,0 +1,118 @@
+body {
+	background-color: #dac292;
+	margin-top: 12px;
+}
+
+.navbar-light {
+	background-color: #c4b7a6;
+	margin-left: -15px;
+	margin-right: -15px;
+	border: 2px solid #c4b7a6;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.nav-link {
+	color: #998B7F;
+}
+
+.nav-link:hover {
+	color: #736559;
+}
+
+.nav-link.active {
+	color: #000;
+}
+
+.nav-link.active:hover {
+	color: #736559;
+}
+
+.navbar-brand {
+	font-size: 28px;
+	font-weight: 650;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 20px;
+}
+
+.container.main {
+	background-color: #e6e2d3;
+	border: 2px solid #e6e2d3;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.tytul {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+table.table-striped {
+	border: 1px solid #c4b7a6;
+	margin-top: -2px;
+	width: 100%;
+}
+
+table.table-striped>thead>tr>th {
+	border: 0px solid #c4b7a6;
+}
+
+table.table-striped>tbody>tr>td {
+	border: 1px solid #c4b7a6;
+}
+
+hr.style-one {
+	margin-top: 40px;
+	margin-bottom: 5px;
+	width: 37%;
+	border: 0;
+	height: 0.5px;
+	background: #c4b7a6;
+	background-image: linear-gradient(to right, #e6e2d3, #c4b7a6, #e6e2d3);
+}
+
+.footer {
+	font-size: 10px;
+	color: #c4b7a6;
+	margin-bottom: 5px;
+}
+
+.btn-light {
+	background: #998B7F;
+	color: #000000;
+	border: 0 none;
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active, .btn-light-active,
+	.open>.dropdown-toggle.btn-light {
+	background: #736559;
+	border: 0 none;
+}
+
+.btn-light.pow {
+	background: #c4b7a6;
+	color: #000000;
+	border: 0 none;
+	margin-top: 12px;
+}
+
+.btn-light.pow:hover, .btn-light.pow:focus, .btn-light.pow:active,
+	.btn-light-active.pow, .open>.dropdown-toggle.btn-light {
+	background: #736559;
+	border: 0 none;
+}
+
+.btn-light.powright {
+	background: #c4b7a6;
+	color: #000000;
+	border: 0 none;
+	padding: 4px 10px;
+	margin-top: 0px;
+}
+
+.btn-light.powright:hover, .btn-light.powright:focus, .btn-light.powright:active,
+	.btn-light-active.powright, .open>.dropdown-toggle.btn-light {
+	background: #736559;
+	border: 0 none;
+}
